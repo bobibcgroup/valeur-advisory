@@ -17,7 +17,13 @@ const inter = Inter({
   display: "swap",
 });
 
-const SITE_URL = "https://valeuradvisory.com";
+// Prefer the stable production alias, fall back to the deployment-specific URL,
+// then to the custom domain once it's connected in the Vercel dashboard.
+const SITE_URL = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : "https://valeuradvisory.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
