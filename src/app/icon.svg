@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#08070A"/>
+  <!-- Thin champagne rule at bottom -->
+  <rect x="8" y="27" width="16" height="0.6" fill="#C4A872" opacity="0.5"/>
+  <!-- V stroke: left diagonal -->
+  <line x1="5.5" y1="7" x2="12" y2="22" stroke="#C4A872" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- V stroke: right diagonal -->
+  <line x1="18.5" y1="7" x2="12" y2="22" stroke="#C4A872" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- A left diagonal -->
+  <line x1="14" y1="22" x2="20.5" y2="7" stroke="#C4A872" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- A right diagonal -->
+  <line x1="26.5" y1="22" x2="20.5" y2="7" stroke="#C4A872" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- A crossbar -->
+  <line x1="16.5" y1="15.5" x2="24.2" y2="15.5" stroke="#C4A872" stroke-width="1.1" stroke-linecap="round"/>
+</svg>
