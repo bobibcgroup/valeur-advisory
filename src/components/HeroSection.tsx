@@ -93,7 +93,7 @@ export default function HeroSection() {
             marginBottom: "28px",
           }}
         >
-          Influence.&thinsp; Authority.&thinsp; Growth.
+          Coming Soon.
         </motion.h1>
 
         {/* ── Thin rule ────────────────────────────────────────────── */}
@@ -126,8 +126,8 @@ export default function HeroSection() {
             marginBottom: "52px",
           }}
         >
-          We help founders, executives, brands, and organizations build
-          credibility, attract opportunities, and create lasting market presence.
+          Helping leaders, brands, and organizations build influence,
+          credibility, and lasting market presence.
         </motion.p>
 
         {/* ── CTA Button ───────────────────────────────────────────── */}
