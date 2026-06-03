@@ -75,10 +75,11 @@ export const metadata: Metadata = {
       "We help founders, executives, brands, and organizations build credibility, attract opportunities, and create lasting market presence.",
     images: [
       {
-        url: "/opengraph-image",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Valeur Advisory — Influence. Authority. Growth.",
+        type: "image/png",
       },
     ],
   },
@@ -88,7 +89,7 @@ export const metadata: Metadata = {
     title: "Valeur Advisory — Influence. Authority. Growth.",
     description:
       "We help founders, executives, brands, and organizations build credibility, attract opportunities, and create lasting market presence.",
-    images: ["/opengraph-image"],
+    images: ["/og-image.png"],
     creator: "@valeuradvisory",
   },
 
